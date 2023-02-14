@@ -34,7 +34,7 @@ namespace CMS.API
             services.AddDbContext<AppDbContext>(options =>
             {
 
-                options.UseSqlServer(Configuration.GetConnectionString("ProjectContext"));
+                options.UseSqlServer(Configuration.GetConnectionString("MSSQL"));
             });
 
             //Swagger Resolve 
@@ -47,9 +47,9 @@ namespace CMS.API
                     Description = "Restful API E",
                     Contact = new OpenApiContact()
                     {
-                        Email = "ezgiiymn@gmail.com",
-                        Name = "Ezgi Yaman",
-                        Url = new Uri("https://github.com/ezgiyaman")
+                        Email = "burakogreticii@gmail.com",
+                        Name = "Burak Öðretici",
+                        Url = new Uri("https://github.com/burakogretici")
                     },
                     License = new OpenApiLicense()
                     {

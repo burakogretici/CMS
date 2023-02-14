@@ -46,7 +46,7 @@ namespace CMS.Prensentation
 
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("ProjectContext"));
+                options.UseSqlServer(Configuration.GetConnectionString("MSSQL"));
             });
 
             //Identity Resolve ediliyor.
